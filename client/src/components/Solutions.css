@@ -1,0 +1,17 @@
+
+.main-solutions-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.solutions-head{
+    
+font-size: 30px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0px;
+text-align: center;
+/* margin-left:92px ; */
+opacity: 0.6;
+}
