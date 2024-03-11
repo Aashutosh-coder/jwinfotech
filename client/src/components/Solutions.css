@@ -1,9 +1,9 @@
-
-.main-solutions-box{
+/* 
+.solu-main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
+} */
 
 .solutions-head{
     
@@ -14,4 +14,13 @@ letter-spacing: 0px;
 text-align: center;
 /* margin-left:92px ; */
 opacity: 0.6;
+}
+
+.solution-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0px auto;
 }

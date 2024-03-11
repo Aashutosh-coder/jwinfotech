@@ -1,26 +1,18 @@
 import React from 'react'
 import Solution from './Solution'
 import './Solutions.css';
-const Solutions = () => {
+function Solutions({carddata}){
   return (
     <div className='solu-main' >
-    <div className='solutions-head' >
-        SOLUTIONS WE OFFER 
-    </div>
-    <div>
-
-        <div className='main-solutions-box' >
-                <Solution></Solution>
-                <Solution></Solution>
-                <Solution></Solution>
-                
-            </div> 
-        <div className='main-solutions-box' >
-                <Solution></Solution>
-                <Solution></Solution>
-                <Solution></Solution>
-                
-            </div> 
+    {/* <div className='solutions-head' >
+        SOLUTIONS 
+    </div> */}
+    <div className='solution-wrapper' >
+      {
+        carddata.map((card) =>{
+          return <Solution {...card} ></Solution>
+        })
+      }
     </div>
     </div>
   )
