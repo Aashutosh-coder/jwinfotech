@@ -1,5 +1,5 @@
 import React from 'react';
-import './Solution.css';
+import '../styles/Solution.css';
 const Solution = ({name,desc}) => {
   return (
     <div>

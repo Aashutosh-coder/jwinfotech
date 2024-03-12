@@ -1,6 +1,6 @@
 import React from 'react'
 import Solution from './Solution'
-import './Solutions.css';
+import '../styles/Solutions.css';
 function Solutions({carddata}){
   return (
     <div className='solu-main' >

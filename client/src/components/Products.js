@@ -1,5 +1,5 @@
 import Product from "./Product";
-import  './Products.css';
+import '../styles/Products.css';
 function Products({products}){
     return(
         <div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import './Navbar.css';
+
+import '../styles/Navbar.css';
 import jwlogo from '../jwlogo.png';
 import { GiDandelionFlower } from "react-icons/gi";
 

@@ -1,4 +1,5 @@
-import './Product.css'
+
+import '../styles/Product.css';
 function Product({image,prdname,detail}){
     return(
         <div>
