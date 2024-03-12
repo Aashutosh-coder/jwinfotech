@@ -4,7 +4,8 @@ const Solution = ({name,desc}) => {
   return (
     <div>
           <div class="card">
-      <p class="card-title">{name}</p>
+      <p class="card-title">{name}
+      </p>
       <p class="small-desc">
             {desc}
       </p>
