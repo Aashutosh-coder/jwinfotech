@@ -1,24 +1,35 @@
 const reviews = [
     {
-        link: '',
+        image: '',
         testimonial:'',
         tittle:''
     },
     {
-        link: '',
+        image: '',
         testimonial:'',
         tittle:''
     },
     {
-        link: '',
+        image: '',
         testimonial:'',
         tittle:''
     },
     {
-        link: '',
+        image: '',
         testimonial:'',
         tittle:''
     },
+    {
+        image: '',
+        testimonial:'',
+        tittle:''
+    },
+    {
+        image: '',
+        testimonial:'',
+        tittle:''
+    },
+    
 ]
 
 export default reviews;

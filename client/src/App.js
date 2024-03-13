@@ -3,8 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Solutions from './components/Solutions';
-import soludata from './solutionsdata'
-import productsdata from './productsdata';
+import soludata from './data/solutionsdata';
+import productsdata from './data/productsdata';
+import testimonialdata from './data/testimonialdata';
 import { useState } from 'react';
 import Products from './components/Products';
 
