@@ -1,0 +1,88 @@
+.circle_1 {
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    animation: icon_rotate 60s infinite linear;
+    
+  }
+  .circle_2 {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 75px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    
+    
+  }
+  .imgBx img{
+    position: absolute;
+    transform: rotate(calc(360deg / 6 * var(--i)));
+    transform-origin: 165px;
+    margin-left: -90px;
+    margin-top: 60px;
+    
+  }
+  .imgBx_2 img{
+    position: absolute;
+    transform: rotate(calc(360deg / 2 * var(--j)));
+    transform-origin: 90px;
+    margin-top: 60px;
+    margin-left: -13px;
+    
+  }
+  #imgbox_0{
+    --i:1;
+    height: 30px;
+    width: 30px;
+  }
+  #imgbox_1{
+    --i:2;
+    height: 30px;
+    width: 30px;
+  }
+  #imgbox_2{
+    --i:3;
+    height: 30px;
+    width: 30px;
+  }
+  #imgbox_3{
+    --i:4;
+    height: 30px;
+    width: 30px;
+  }
+  #imgbox_4{
+    --i:5;
+    height: 30px;
+    width: 30px;
+  }
+  #imgbox_5{
+    --i:6;
+    height: 30px;
+    width: 30px;
+  }
+  #imgbox_6{
+    --j:0;
+    height: 35px;
+    width: 30px;
+  }
+  #imgbox_7{
+    --j:1;
+    height: 30px;
+    width: 40px;
+  }
+
+  
+  @keyframes icon_rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-360deg);
+    }
+  }
+ 
+  

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Hero.css';
-import wheel from '../wheel.png';
+import Wheel from './Wheel';
 import Typewriter from "typewriter-effect";
 
 const Hero = () => {
@@ -33,9 +33,9 @@ const Hero = () => {
                     </div>
 
             </div>
-            <div>
+            <div className='tech-wheel'>
             
-                <img className='tech-wheel' src= {wheel} alt="" />
+               <Wheel></Wheel>
             </div>
       </div>
             <div className='big-text' >
