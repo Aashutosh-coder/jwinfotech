@@ -8,11 +8,13 @@ import productsdata from './data/productsdata';
 import testimonialdata from './data/testimonialdata';
 import { useState } from 'react';
 import Products from './components/Products';
+import Work from './components/Work';
 
 
 function App() {
 const [carddata, setcarddata] = useState(soludata);
 const [products,setproducts] = useState(productsdata);
+const [testimonials,settestimonials] = useState(testimonialdata);
   return (
     <>
         <Navbar></Navbar>
@@ -20,6 +22,7 @@ const [products,setproducts] = useState(productsdata);
         
         <Solutions carddata ={carddata} ></Solutions>
         <Products products = {products} ></Products> 
+        <Work testimonials = {testimonials} ></Work>
     </>
   );
 }
