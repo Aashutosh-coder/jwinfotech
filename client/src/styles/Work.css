@@ -1,0 +1,11 @@
+.work-tittle{
+    font-size: 35px;
+    font-weight: 600;    
+}
+
+.testimonial-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
