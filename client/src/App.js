@@ -9,6 +9,7 @@ import testimonialdata from './data/testimonialdata';
 import { useState } from 'react';
 import Products from './components/Products';
 import Work from './components/Work';
+import Blogs from './components/Blogs'
 
 
 function App() {
@@ -21,8 +22,9 @@ const [testimonials,settestimonials] = useState(testimonialdata);
         <Hero></Hero>
         
         <Solutions carddata ={carddata} ></Solutions>
-        <Products products = {products} ></Products> 
+        <Products products = {products} ></Products>  
         <Work testimonials = {testimonials} ></Work>
+        <Blogs></Blogs>
     </>
   );
 }

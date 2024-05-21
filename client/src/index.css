@@ -9,7 +9,8 @@ body {
   background: linear-gradient(-59.26deg, rgba(246, 230, 225, 0.37) 27.167%,rgba(244, 217, 208, 0.31) 32.114%,rgba(211, 247, 255, 0) 61.264%),rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-size: cover;
-  
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 code {
